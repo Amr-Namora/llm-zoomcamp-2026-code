@@ -26,7 +26,7 @@ Context:
 """
 
 class RagHelper:
-    def __init__(self, index,llm_client,instructions=INSTRUCTIONS,model="llama-3.3-70b-versatile" , prompt_template=USER_PROMPT_TEMPLATE):
+    def __init__(self, index,llm_client,instructions=INSTRUCTIONS,model="llama-3.3-70b-versatile" , prompt_template=USER_PROMPT_TEMPLATE ):
         self.index = index
         self.llm_client = llm_client
         self.instructions = instructions
